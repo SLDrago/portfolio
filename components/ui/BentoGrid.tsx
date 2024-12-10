@@ -7,10 +7,10 @@ import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
 
-const BackgroundGradientAnimation = dynamic(
-  () => import("./GradientBg").then((mod) => mod.BackgroundGradientAnimation),
-  { ssr: false }
-);
+// const BackgroundGradientAnimation = dynamic(
+//   () => import("./GradientBg").then((mod) => mod.BackgroundGradientAnimation),
+//   { ssr: false }
+// );
 const GridGlobe = dynamic(() => import("./GridGlobe"), { ssr: false });
 import animationData from "@/data/confetti.json";
 import laptopAnimation from "@/data/laptop.json";
@@ -125,9 +125,9 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 6 && (
-          <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
-          </BackgroundGradientAnimation>
+          // <BackgroundGradientAnimation>
+          <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
+          // </BackgroundGradientAnimation>
         )}
 
         <div
