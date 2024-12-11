@@ -1,7 +1,8 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
-import MagicButton from "./MagicButton";
+import dynamic from "next/dynamic";
+const MagicButton = dynamic(() => import("./MagicButton"), { ssr: false });
 
 const Footer = () => {
   return (
