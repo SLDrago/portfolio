@@ -206,6 +206,13 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
+  {
+    id: 3,
+    title: "Software Engineer (Trainee) - Rightmo Web Solution (Pvt) Ltd.",
+    desc: "Currently working on here...",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
 ];
 
 export const socialMedia = [
